@@ -1,0 +1,17 @@
+C:\Users\User\source\repos\ClientManagementSystem\ClientManagementSystem.BLL\bin\Debug\net8.0\ClientManagementSystem.BL.deps.json
+C:\Users\User\source\repos\ClientManagementSystem\ClientManagementSystem.BLL\bin\Debug\net8.0\ClientManagementSystem.BL.dll
+C:\Users\User\source\repos\ClientManagementSystem\ClientManagementSystem.BLL\bin\Debug\net8.0\ClientManagementSystem.BL.pdb
+C:\Users\User\source\repos\ClientManagementSystem\ClientManagementSystem.BLL\bin\Debug\net8.0\ClientManagementSystem.DAL.dll
+C:\Users\User\source\repos\ClientManagementSystem\ClientManagementSystem.BLL\bin\Debug\net8.0\ClientManagementSystem.DAL.pdb
+C:\Users\User\source\repos\ClientManagementSystem\ClientManagementSystem.BLL\obj\Debug\net8.0\ClientManagementSystem.BL.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\ClientManagementSystem\ClientManagementSystem.BLL\obj\Debug\net8.0\ClientManagementSystem.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\ClientManagementSystem\ClientManagementSystem.BLL\obj\Debug\net8.0\ClientManagementSystem.BL.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\ClientManagementSystem\ClientManagementSystem.BLL\obj\Debug\net8.0\ClientManagementSystem.BL.AssemblyInfo.cs
+C:\Users\User\source\repos\ClientManagementSystem\ClientManagementSystem.BLL\obj\Debug\net8.0\ClientManagementSystem.BL.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\ClientManagementSystem\ClientManagementSystem.BLL\obj\Debug\net8.0\ClientMa.8635B324.Up2Date
+C:\Users\User\source\repos\ClientManagementSystem\ClientManagementSystem.BLL\obj\Debug\net8.0\ClientManagementSystem.BL.dll
+C:\Users\User\source\repos\ClientManagementSystem\ClientManagementSystem.BLL\obj\Debug\net8.0\refint\ClientManagementSystem.BL.dll
+C:\Users\User\source\repos\ClientManagementSystem\ClientManagementSystem.BLL\obj\Debug\net8.0\ClientManagementSystem.BL.pdb
+C:\Users\User\source\repos\ClientManagementSystem\ClientManagementSystem.BLL\obj\Debug\net8.0\ref\ClientManagementSystem.BL.dll
+C:\Users\User\source\repos\ClientManagementSystem\ClientManagementSystem.BLL\bin\Debug\net8.0\ClientManagementSystem.BL.runtimeconfig.json
+C:\Users\User\source\repos\ClientManagementSystem\ClientManagementSystem.BLL\obj\Debug\net8.0\ClientManagementSystem.BL.genruntimeconfig.cache
