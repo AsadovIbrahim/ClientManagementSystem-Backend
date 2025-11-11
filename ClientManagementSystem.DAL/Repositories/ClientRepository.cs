@@ -24,5 +24,13 @@ namespace ClientManagementSystem.DAL.Repositories
                 .Where(c => c.ClientGroup.Name == name)
                 .ToListAsync();
         }
+
+        public async Task<IEnumerable<Client>> GetClientsByGroupNameAsync(string groupName)
+        {
+            return await _table
+                .Include(c => c.ClientGroup)
+                .Where(c => c.ClientGroup.Name == groupName)
+                .ToListAsync();
+        }
     }
 }

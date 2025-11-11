@@ -7,7 +7,7 @@ namespace ClientManagementSystem.BL.Interfaces
     {
         Task<Result<ClientGroupCreateDTO>> CreateClientGroupAsync(ClientGroupCreateDTO dto);
         Task<Result<ClientGroupDTO>> GetClientGroupByIdAsync(Guid id);
-        Task<Result<IEnumerable<ClientGroupDTO>>> GetAllClientGroupsAsync();
+        Task<Result<IEnumerable<ClientGroupDTO>>> GetAllClientGroupsAsync(string?name=null);
         Task<Result<ClientGroupUpdateDTO>> UpdateClientGroupAsync(ClientGroupUpdateDTO dto);
         Task<Result<ClientGroupDTO>> DeleteClientGroupAsync(Guid id);
 

@@ -68,9 +68,11 @@ namespace ClientManagementSystem.BL.Services
             }
         }
 
-        public async Task<Result<IEnumerable<ClientGroupDTO>>> GetAllClientGroupsAsync()
+        public async Task<Result<IEnumerable<ClientGroupDTO>>> GetAllClientGroupsAsync(string? name = null)
         {
-            var clientGroups = await _clientGroupRepository.GetAllAsync();
+            var clientGroups = string.IsNullOrEmpty(name)
+                ? await _clientGroupRepository.GetAllAsync()
+                : await _clientGroupRepository.GetClientsByName(name);
             var clientGroupDtos = clientGroups.Select(cg => new ClientGroupDTO
             {
                 Id = cg.Id,

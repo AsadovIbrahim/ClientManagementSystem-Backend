@@ -8,6 +8,7 @@ namespace ClientManagementSystem.BL.Interfaces
         Task<Result<ClientCreateDTO>> CreateClientAsync(ClientCreateDTO dto);
         Task<Result<ClientDTO>> GetClientByIdAsync(Guid id);
         Task<Result<IEnumerable<ClientDTO>>> GetAllClientsAsync(string? name = null);
+        Task<Result<IEnumerable<ClientDTO>>> GetClientsByGroupNameAsync(string groupName);
         Task<Result<ClientUpdateDTO>> UpdateClientAsync(ClientUpdateDTO dto);
         Task<Result<ClientDTO>> DeleteClientAsync(Guid id);
         Task<Result<bool>> DeleteMultipleClientsAsync(IEnumerable<Guid> ids);

@@ -26,6 +26,27 @@
         }
       }
     },
+    "/api/Client/getclientsbygroupname": {
+      "get": {
+        "tags": [
+          "Client"
+        ],
+        "parameters": [
+          {
+            "name": "groupName",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Client/create-client": {
       "post": {
         "tags": [
@@ -158,6 +179,15 @@
       "get": {
         "tags": [
           "ClientGroup"
+        ],
+        "parameters": [
+          {
+            "name": "name",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
         ],
         "responses": {
           "200": {

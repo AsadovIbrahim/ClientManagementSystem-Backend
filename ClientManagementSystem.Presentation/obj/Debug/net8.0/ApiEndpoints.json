@@ -65,6 +65,22 @@
   },
   {
     "ContainingType": "ClientManagementSystem.Presentation.Controllers.ClientController",
+    "Method": "GetClientsByName",
+    "RelativePath": "api/Client/getclientsbygroupname",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "groupName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ClientManagementSystem.Presentation.Controllers.ClientController",
     "Method": "UpdateClient",
     "RelativePath": "api/Client/update-client",
     "HttpMethod": "PUT",
@@ -118,7 +134,13 @@
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {

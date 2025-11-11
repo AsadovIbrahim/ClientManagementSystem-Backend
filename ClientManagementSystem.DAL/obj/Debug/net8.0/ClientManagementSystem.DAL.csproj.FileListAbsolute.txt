@@ -12,3 +12,4 @@ C:\Users\User\source\repos\ClientManagementSystem\ClientManagementSystem.DAL\obj
 C:\Users\User\source\repos\ClientManagementSystem\ClientManagementSystem.DAL\obj\Debug\net8.0\ClientManagementSystem.DAL.pdb
 C:\Users\User\source\repos\ClientManagementSystem\ClientManagementSystem.DAL\obj\Debug\net8.0\ClientManagementSystem.DAL.genruntimeconfig.cache
 C:\Users\User\source\repos\ClientManagementSystem\ClientManagementSystem.DAL\obj\Debug\net8.0\ref\ClientManagementSystem.DAL.dll
+C:\Users\User\source\repos\ClientManagementSystem\ClientManagementSystem.DAL\obj\Debug\net8.0\ClientManagementSystem.DAL.sourcelink.json

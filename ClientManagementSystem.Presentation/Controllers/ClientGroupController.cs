@@ -1,6 +1,6 @@
-﻿using ClientManagementSystem.BL.DTOs.ClientGroup;
+﻿using Microsoft.AspNetCore.Mvc;
 using ClientManagementSystem.BL.Interfaces;
-using Microsoft.AspNetCore.Mvc;
+using ClientManagementSystem.BL.DTOs.ClientGroup;
 
 namespace ClientManagementSystem.Presentation.Controllers
 {
@@ -14,9 +14,9 @@ namespace ClientManagementSystem.Presentation.Controllers
             _clientGroupService = clientGroupService;
         }
         [HttpGet("getallclientgroups")]
-        public async Task<IActionResult> GetAllClientGroups()
+        public async Task<IActionResult> GetAllClientGroups(string? name = null)
         {
-            var clientGroups = await _clientGroupService.GetAllClientGroupsAsync();
+            var clientGroups = await _clientGroupService.GetAllClientGroupsAsync(name);
             return Ok(clientGroups);
         }
         [HttpPost("create-clientgroup")]
@@ -36,11 +36,11 @@ namespace ClientManagementSystem.Presentation.Controllers
         {
 
             var result = await _clientGroupService.DeleteClientGroupAsync(id);
-            if(!result.Success)
+            if (!result.Success)
             {
                 return BadRequest(result.Message);
             }
-            return Ok(new {message=$"Client Group with {id} deleted succesffully."});
+            return Ok(new { message = $"Client Group with {id} deleted succesffully." });
 
         }
     }

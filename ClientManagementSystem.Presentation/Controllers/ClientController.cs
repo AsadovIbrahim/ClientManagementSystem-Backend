@@ -19,6 +19,12 @@ namespace ClientManagementSystem.Presentation.Controllers
             var clients = await _clientService.GetAllClientsAsync(name);
             return Ok(clients);
         }
+        [HttpGet("getclientsbygroupname")]
+        public async Task<IActionResult> GetClientsByName(string groupName)
+        {
+            var clients = await _clientService.GetClientsByGroupNameAsync(groupName);
+            return Ok(clients);
+        }
         [HttpPost("create-client")]
         public async Task<IActionResult> CreateClient([FromBody] ClientCreateDTO clientCreateDTO)
         {

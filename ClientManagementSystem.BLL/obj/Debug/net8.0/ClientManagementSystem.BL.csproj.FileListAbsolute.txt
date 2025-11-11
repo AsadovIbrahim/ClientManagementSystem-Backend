@@ -15,3 +15,4 @@ C:\Users\User\source\repos\ClientManagementSystem\ClientManagementSystem.BLL\obj
 C:\Users\User\source\repos\ClientManagementSystem\ClientManagementSystem.BLL\obj\Debug\net8.0\ref\ClientManagementSystem.BL.dll
 C:\Users\User\source\repos\ClientManagementSystem\ClientManagementSystem.BLL\bin\Debug\net8.0\ClientManagementSystem.BL.runtimeconfig.json
 C:\Users\User\source\repos\ClientManagementSystem\ClientManagementSystem.BLL\obj\Debug\net8.0\ClientManagementSystem.BL.genruntimeconfig.cache
+C:\Users\User\source\repos\ClientManagementSystem\ClientManagementSystem.BLL\obj\Debug\net8.0\ClientManagementSystem.BL.sourcelink.json
