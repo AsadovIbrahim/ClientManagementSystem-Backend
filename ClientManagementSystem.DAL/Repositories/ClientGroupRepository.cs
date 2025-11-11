@@ -11,9 +11,18 @@ namespace ClientManagementSystem.DAL.Repositories
         {
         }
 
+        public async Task<IEnumerable<ClientGroup>> GetAllClients()
+        {
+            return await _table
+                .Include(c=>c.ParentGroup)
+                .Include(c=>c.ChildGroups)
+                .ToListAsync();
+        }
+
         public async Task<IEnumerable<ClientGroup?>> GetClientsByName(string name)
         {
             return await _table
+                .Include(c=>c.ParentGroup)
                 .Where(cg=>cg.Name==name)
                 .ToListAsync();
         }

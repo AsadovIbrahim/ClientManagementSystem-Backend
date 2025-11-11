@@ -24,14 +24,16 @@ namespace ClientManagementSystem.BL.Services
                 {
                     Name = dto.Name,
                     Code = dto.Code,
-                    Comment = dto.Comment
+                    Comment = dto.Comment,
+                    ParentGroupId = dto.ParentGroupId
                 };
                 await _clientGroupRepository.AddAsync(clientGroup);
                 dto = new ClientGroupCreateDTO
                 {
                     Name = clientGroup.Name,
                     Code = clientGroup.Code,
-                    Comment = clientGroup.Comment
+                    Comment = clientGroup.Comment,
+                    ParentGroupId = clientGroup.ParentGroupId
                 };
                 return Result<ClientGroupCreateDTO>.Ok(dto, "Client group created successfully.");
             }
@@ -57,7 +59,8 @@ namespace ClientManagementSystem.BL.Services
                     Id = clientGroup.Id,
                     Name = clientGroup.Name,
                     Code = clientGroup.Code,
-                    Comment = clientGroup.Comment
+                    Comment = clientGroup.Comment,
+                    ParentGroupId = clientGroup.ParentGroupId
                 };
                 return Result<ClientGroupDTO>.Ok(clientGroupDto, "Client group deleted successfully.");
             }
@@ -71,14 +74,18 @@ namespace ClientManagementSystem.BL.Services
         public async Task<Result<IEnumerable<ClientGroupDTO>>> GetAllClientGroupsAsync(string? name = null)
         {
             var clientGroups = string.IsNullOrEmpty(name)
-                ? await _clientGroupRepository.GetAllAsync()
+                ? await _clientGroupRepository.GetAllClients()
                 : await _clientGroupRepository.GetClientsByName(name);
             var clientGroupDtos = clientGroups.Select(cg => new ClientGroupDTO
             {
                 Id = cg.Id,
                 Name = cg.Name,
                 Code = cg.Code,
-                Comment = cg.Comment
+                Comment = cg.Comment,
+                ParentGroupId = cg.ParentGroupId,
+                ParentName = cg.ParentGroupId.HasValue
+                    ? clientGroups.FirstOrDefault(p => p.Id == cg.ParentGroupId)?.Name
+                    : null
             });
             return Result<IEnumerable<ClientGroupDTO>>.Ok(clientGroupDtos, "Client groups retrieved successfully.");
         }
@@ -97,7 +104,8 @@ namespace ClientManagementSystem.BL.Services
                     Id = clientGroup.Id,
                     Name = clientGroup.Name,
                     Code = clientGroup.Code,
-                    Comment = clientGroup.Comment
+                    Comment = clientGroup.Comment,
+                    ParentGroupId = clientGroup.ParentGroupId
                 };
                 return Result<ClientGroupDTO>.Ok(clientGroupDto, "Client group retrieved successfully.");
             }
@@ -107,6 +115,35 @@ namespace ClientManagementSystem.BL.Services
                 _logger.LogError(ex, "Error retrieving client group");
                 return Result<ClientGroupDTO>.Fail("An error occurred while retrieving the client group.");
             }
+        }
+
+        public async Task<Result<IEnumerable<ClientGroupTreeDTO>>> GetClientGroupTreeAsync()
+        {
+            var clientGroups = await _clientGroupRepository.GetAllClients();
+            var clientGroupDict = clientGroups.ToDictionary(cg => cg.Id, cg => new ClientGroupTreeDTO
+            {
+                Id = cg.Id,
+                Name = cg.Name,
+                Children = new List<ClientGroupTreeDTO>()
+            });
+            ClientGroupTreeDTO? root = null;
+            foreach (var cg in clientGroups)
+            {
+                if (cg.ParentGroupId.HasValue && clientGroupDict.ContainsKey(cg.ParentGroupId.Value))
+                {
+                    clientGroupDict[cg.ParentGroupId.Value].Children.Add(clientGroupDict[cg.Id]);
+                }
+                else
+                {
+                    root = clientGroupDict[cg.Id];
+                }
+            }
+            var roots = clientGroups
+                .Where(cg => cg.ParentGroupId == null)
+                .Select(cg => clientGroupDict[cg.Id])
+                .ToList();
+
+            return Result<IEnumerable<ClientGroupTreeDTO>>.Ok(roots, "Client group tree retrieved successfully.");
         }
 
         public async Task<Result<ClientGroupUpdateDTO>> UpdateClientGroupAsync(ClientGroupUpdateDTO dto)
@@ -121,13 +158,19 @@ namespace ClientManagementSystem.BL.Services
                 clientGroup.Name = dto.Name ?? clientGroup.Name;
                 clientGroup.Code = dto.Code ?? clientGroup.Code;
                 clientGroup.Comment = dto.Comment ?? clientGroup.Comment;
+                clientGroup.ParentGroupId = dto.ParentGroupId ?? clientGroup.ParentGroupId;
+                if(dto.ParentGroupId == clientGroup.Id)
+                {
+                    return Result<ClientGroupUpdateDTO>.Fail("A client group cannot be its own parent.");
+                }
                 await _clientGroupRepository.UpdateAsync(clientGroup);
                 dto = new ClientGroupUpdateDTO
                 {
                     Id = clientGroup.Id,
                     Name = clientGroup.Name,
                     Code = clientGroup.Code,
-                    Comment = clientGroup.Comment
+                    Comment = clientGroup.Comment,
+                    ParentGroupId = clientGroup.ParentGroupId
                 };
                 return Result<ClientGroupUpdateDTO>.Ok(dto, "Client group updated successfully.");
             }
@@ -137,5 +180,6 @@ namespace ClientManagementSystem.BL.Services
                 return Result<ClientGroupUpdateDTO>.Fail("An error occurred while updating the client group.");
             }
         }
+
     }
 }

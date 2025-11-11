@@ -196,6 +196,18 @@
         }
       }
     },
+    "/api/ClientGroup/getallclientgrouptree": {
+      "get": {
+        "tags": [
+          "ClientGroup"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/ClientGroup/create-clientgroup": {
       "post": {
         "tags": [
@@ -320,6 +332,11 @@
           "comment": {
             "type": "string",
             "nullable": true
+          },
+          "parentGroupId": {
+            "type": "string",
+            "format": "uuid",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -342,6 +359,11 @@
           },
           "comment": {
             "type": "string",
+            "nullable": true
+          },
+          "parentGroupId": {
+            "type": "string",
+            "format": "uuid",
             "nullable": true
           }
         },

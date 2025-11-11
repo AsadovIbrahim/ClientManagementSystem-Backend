@@ -2,6 +2,7 @@
 using ClientManagementSystem.BL.Interfaces;
 using ClientManagementSystem.BL.DTOs.ClientGroup;
 
+
 namespace ClientManagementSystem.Presentation.Controllers
 {
     [Route("api/[controller]")]
@@ -18,6 +19,12 @@ namespace ClientManagementSystem.Presentation.Controllers
         {
             var clientGroups = await _clientGroupService.GetAllClientGroupsAsync(name);
             return Ok(clientGroups);
+        }
+        [HttpGet("getallclientgrouptree")]
+        public async Task<IActionResult> GetAllClientGroupTree()
+        {
+            var clientGroupTree = await _clientGroupService.GetClientGroupTreeAsync();
+            return Ok(clientGroupTree);
         }
         [HttpPost("create-clientgroup")]
         public async Task<IActionResult> CreateClientGroup([FromBody] ClientGroupCreateDTO clientGroupCreateDTO)

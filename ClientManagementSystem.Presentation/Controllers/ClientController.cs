@@ -1,6 +1,7 @@
-﻿using ClientManagementSystem.BL.DTOs.Client;
+﻿using Microsoft.AspNetCore.Mvc;
 using ClientManagementSystem.BL.Interfaces;
-using Microsoft.AspNetCore.Mvc;
+using ClientManagementSystem.BL.DTOs.Client;
+
 
 namespace ClientManagementSystem.Presentation.Controllers
 {
