@@ -47,6 +47,27 @@
         }
       }
     },
+    "/api/Client/getclientsbycharactername": {
+      "get": {
+        "tags": [
+          "Client"
+        ],
+        "parameters": [
+          {
+            "name": "character",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Client/create-client": {
       "post": {
         "tags": [
@@ -183,6 +204,27 @@
         "parameters": [
           {
             "name": "name",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ClientGroup/getallclientgroupsbycharacter": {
+      "get": {
+        "tags": [
+          "ClientGroup"
+        ],
+        "parameters": [
+          {
+            "name": "character",
             "in": "query",
             "schema": {
               "type": "string"

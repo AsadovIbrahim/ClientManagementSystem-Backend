@@ -20,6 +20,12 @@ namespace ClientManagementSystem.Presentation.Controllers
             var clientGroups = await _clientGroupService.GetAllClientGroupsAsync(name);
             return Ok(clientGroups);
         }
+        [HttpGet("getallclientgroupsbycharacter")]
+        public async Task<IActionResult> GetAllClientGroupByCharacter(string? character=null)
+        {
+            var clientGroups = await _clientGroupService.GetAllClientGroupsByCharacterAsync(character);
+            return Ok(clientGroups);
+        }
         [HttpGet("getallclientgrouptree")]
         public async Task<IActionResult> GetAllClientGroupTree()
         {

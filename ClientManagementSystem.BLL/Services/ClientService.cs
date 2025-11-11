@@ -146,6 +146,33 @@ namespace ClientManagementSystem.BL.Services
             }
         }
 
+        public async Task<Result<IEnumerable<ClientDTO>>> GetClientsByCharacterNameAsync(string? characterName=null)
+        {
+            try
+            {
+
+                var clients=string.IsNullOrEmpty(characterName)
+                    ? await _clientRepository.GetAllClientsAsync()
+                    : await _clientRepository.GetClientsByCharacterNameAsync(characterName);
+                var clientDtos = clients.Select(client => new ClientDTO
+                {
+                    Id = client.Id,
+                    Name = client.Name,
+                    Code = client.Code,
+                    Comment = client.Comment,
+                    ClientGroupId = client.ClientGroupId,
+                    GroupName = client.ClientGroup?.Name!
+                });
+                return Result<IEnumerable<ClientDTO>>.Ok(clientDtos, "Clients retrieved successfully.");
+
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error retrieving clients by character name");
+                return Result<IEnumerable<ClientDTO>>.Fail("An error occurred while retrieving clients by character name.");
+            }
+        }
+
         public async Task<Result<IEnumerable<ClientDTO>>> GetClientsByGroupNameAsync(string groupName)
         {
             try

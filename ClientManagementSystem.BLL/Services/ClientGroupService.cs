@@ -90,6 +90,33 @@ namespace ClientManagementSystem.BL.Services
             return Result<IEnumerable<ClientGroupDTO>>.Ok(clientGroupDtos, "Client groups retrieved successfully.");
         }
 
+        public async Task<Result<IEnumerable<ClientGroupDTO>>> GetAllClientGroupsByCharacterAsync(string? character = null)
+        {
+            try
+            {
+                var clientGroups = string.IsNullOrEmpty(character)
+                    ? await _clientGroupRepository.GetAllClients()
+                    : await _clientGroupRepository.GetClientGroupsByCharacterAsync(character);
+                var clientGroupDtos = clientGroups.Select(cg => new ClientGroupDTO
+                {
+                    Id = cg.Id,
+                    Name = cg.Name,
+                    Code = cg.Code,
+                    Comment = cg.Comment,
+                    ParentGroupId = cg.ParentGroupId,
+                    ParentName = cg.ParentGroupId.HasValue
+                        ? clientGroups.FirstOrDefault(p => p.Id == cg.ParentGroupId)?.Name
+                        : null
+                });
+                return Result<IEnumerable<ClientGroupDTO>>.Ok(clientGroupDtos, "Client groups retrieved successfully.");
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error retrieving client groups by character");
+                return Result<IEnumerable<ClientGroupDTO>>.Fail("An error occurred while retrieving the client groups.");
+            }
+        }
+
         public async Task<Result<ClientGroupDTO>> GetClientGroupByIdAsync(Guid id)
         {
             try

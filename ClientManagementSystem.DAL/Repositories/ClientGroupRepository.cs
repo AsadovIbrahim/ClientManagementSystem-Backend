@@ -19,6 +19,19 @@ namespace ClientManagementSystem.DAL.Repositories
                 .ToListAsync();
         }
 
+        public async Task<IEnumerable<ClientGroup?>> GetClientGroupsByCharacterAsync(string character)
+        {
+            if (string.IsNullOrEmpty(character))
+            {
+                return Enumerable.Empty<ClientGroup?>();
+            }
+            return await _table
+                .Include(c=>c.ParentGroup)
+                .Where(c => EF.Functions.Like(c.Name,$"%{character}%"))
+                .ToListAsync();
+        }
+
+
         public async Task<IEnumerable<ClientGroup?>> GetClientsByName(string name)
         {
             return await _table

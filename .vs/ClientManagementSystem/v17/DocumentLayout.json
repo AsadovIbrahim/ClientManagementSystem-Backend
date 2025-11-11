@@ -3,72 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\ClientManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F870D00A-7001-4517-850F-416DE9103EFC}|ClientManagementSystem.BLL\\ClientManagementSystem.BL.csproj|c:\\users\\user\\source\\repos\\clientmanagementsystem\\clientmanagementsystem.bll\\interfaces\\iclientgroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F870D00A-7001-4517-850F-416DE9103EFC}|ClientManagementSystem.BLL\\ClientManagementSystem.BL.csproj|solutionrelative:clientmanagementsystem.bll\\interfaces\\iclientgroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6C6E2641-B0E7-4DF6-AAE2-68A41C7F6B1B}|ClientManagementSystem.DAL\\ClientManagementSystem.DAL.csproj|c:\\users\\user\\source\\repos\\clientmanagementsystem\\clientmanagementsystem.dal\\repositories\\clientgrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C6E2641-B0E7-4DF6-AAE2-68A41C7F6B1B}|ClientManagementSystem.DAL\\ClientManagementSystem.DAL.csproj|solutionrelative:clientmanagementsystem.dal\\repositories\\clientgrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C6E2641-B0E7-4DF6-AAE2-68A41C7F6B1B}|ClientManagementSystem.DAL\\ClientManagementSystem.DAL.csproj|c:\\users\\user\\source\\repos\\clientmanagementsystem\\clientmanagementsystem.dal\\repositories\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C6E2641-B0E7-4DF6-AAE2-68A41C7F6B1B}|ClientManagementSystem.DAL\\ClientManagementSystem.DAL.csproj|solutionrelative:clientmanagementsystem.dal\\repositories\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C6E2641-B0E7-4DF6-AAE2-68A41C7F6B1B}|ClientManagementSystem.DAL\\ClientManagementSystem.DAL.csproj|c:\\users\\user\\source\\repos\\clientmanagementsystem\\clientmanagementsystem.dal\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C6E2641-B0E7-4DF6-AAE2-68A41C7F6B1B}|ClientManagementSystem.DAL\\ClientManagementSystem.DAL.csproj|solutionrelative:clientmanagementsystem.dal\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC4349FB-6A46-42C1-93D9-160F0FFB493A}|ClientManagementSystem.Presentation\\ClientManagementSystem.Presentation.csproj|c:\\users\\user\\source\\repos\\clientmanagementsystem\\clientmanagementsystem.presentation\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC4349FB-6A46-42C1-93D9-160F0FFB493A}|ClientManagementSystem.Presentation\\ClientManagementSystem.Presentation.csproj|solutionrelative:clientmanagementsystem.presentation\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C6E2641-B0E7-4DF6-AAE2-68A41C7F6B1B}|ClientManagementSystem.DAL\\ClientManagementSystem.DAL.csproj|c:\\users\\user\\source\\repos\\clientmanagementsystem\\clientmanagementsystem.dal\\repositories\\clientgrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C6E2641-B0E7-4DF6-AAE2-68A41C7F6B1B}|ClientManagementSystem.DAL\\ClientManagementSystem.DAL.csproj|solutionrelative:clientmanagementsystem.dal\\repositories\\clientgrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C6E2641-B0E7-4DF6-AAE2-68A41C7F6B1B}|ClientManagementSystem.DAL\\ClientManagementSystem.DAL.csproj|c:\\users\\user\\source\\repos\\clientmanagementsystem\\clientmanagementsystem.dal\\models\\concretes\\clientgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C6E2641-B0E7-4DF6-AAE2-68A41C7F6B1B}|ClientManagementSystem.DAL\\ClientManagementSystem.DAL.csproj|solutionrelative:clientmanagementsystem.dal\\models\\concretes\\clientgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C6E2641-B0E7-4DF6-AAE2-68A41C7F6B1B}|ClientManagementSystem.DAL\\ClientManagementSystem.DAL.csproj|c:\\users\\user\\source\\repos\\clientmanagementsystem\\clientmanagementsystem.dal\\models\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C6E2641-B0E7-4DF6-AAE2-68A41C7F6B1B}|ClientManagementSystem.DAL\\ClientManagementSystem.DAL.csproj|solutionrelative:clientmanagementsystem.dal\\models\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC4349FB-6A46-42C1-93D9-160F0FFB493A}|ClientManagementSystem.Presentation\\ClientManagementSystem.Presentation.csproj|c:\\users\\user\\source\\repos\\clientmanagementsystem\\clientmanagementsystem.presentation\\controllers\\clientgroupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC4349FB-6A46-42C1-93D9-160F0FFB493A}|ClientManagementSystem.Presentation\\ClientManagementSystem.Presentation.csproj|solutionrelative:clientmanagementsystem.presentation\\controllers\\clientgroupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F870D00A-7001-4517-850F-416DE9103EFC}|ClientManagementSystem.BLL\\ClientManagementSystem.BL.csproj|c:\\users\\user\\source\\repos\\clientmanagementsystem\\clientmanagementsystem.bll\\services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F870D00A-7001-4517-850F-416DE9103EFC}|ClientManagementSystem.BLL\\ClientManagementSystem.BL.csproj|solutionrelative:clientmanagementsystem.bll\\services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F870D00A-7001-4517-850F-416DE9103EFC}|ClientManagementSystem.BLL\\ClientManagementSystem.BL.csproj|c:\\users\\user\\source\\repos\\clientmanagementsystem\\clientmanagementsystem.bll\\services\\clientgroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F870D00A-7001-4517-850F-416DE9103EFC}|ClientManagementSystem.BLL\\ClientManagementSystem.BL.csproj|solutionrelative:clientmanagementsystem.bll\\services\\clientgroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F870D00A-7001-4517-850F-416DE9103EFC}|ClientManagementSystem.BLL\\ClientManagementSystem.BL.csproj|c:\\users\\user\\source\\repos\\clientmanagementsystem\\clientmanagementsystem.bll\\dtos\\clientgroup\\clientgroupcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F870D00A-7001-4517-850F-416DE9103EFC}|ClientManagementSystem.BLL\\ClientManagementSystem.BL.csproj|solutionrelative:clientmanagementsystem.bll\\dtos\\clientgroup\\clientgroupcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FC4349FB-6A46-42C1-93D9-160F0FFB493A}|ClientManagementSystem.Presentation\\ClientManagementSystem.Presentation.csproj|c:\\users\\user\\source\\repos\\clientmanagementsystem\\clientmanagementsystem.presentation\\controllers\\clientgroupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC4349FB-6A46-42C1-93D9-160F0FFB493A}|ClientManagementSystem.Presentation\\ClientManagementSystem.Presentation.csproj|solutionrelative:clientmanagementsystem.presentation\\controllers\\clientgroupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F870D00A-7001-4517-850F-416DE9103EFC}|ClientManagementSystem.BLL\\ClientManagementSystem.BL.csproj|c:\\users\\user\\source\\repos\\clientmanagementsystem\\clientmanagementsystem.bll\\dtos\\clientgroup\\clientgrouptreedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F870D00A-7001-4517-850F-416DE9103EFC}|ClientManagementSystem.BLL\\ClientManagementSystem.BL.csproj|solutionrelative:clientmanagementsystem.bll\\dtos\\clientgroup\\clientgrouptreedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F870D00A-7001-4517-850F-416DE9103EFC}|ClientManagementSystem.BLL\\ClientManagementSystem.BL.csproj|c:\\users\\user\\source\\repos\\clientmanagementsystem\\clientmanagementsystem.bll\\dtos\\clientgroup\\clientgroupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F870D00A-7001-4517-850F-416DE9103EFC}|ClientManagementSystem.BLL\\ClientManagementSystem.BL.csproj|solutionrelative:clientmanagementsystem.bll\\dtos\\clientgroup\\clientgroupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C6E2641-B0E7-4DF6-AAE2-68A41C7F6B1B}|ClientManagementSystem.DAL\\ClientManagementSystem.DAL.csproj|c:\\users\\user\\source\\repos\\clientmanagementsystem\\clientmanagementsystem.dal\\models\\concretes\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C6E2641-B0E7-4DF6-AAE2-68A41C7F6B1B}|ClientManagementSystem.DAL\\ClientManagementSystem.DAL.csproj|solutionrelative:clientmanagementsystem.dal\\models\\concretes\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F870D00A-7001-4517-850F-416DE9103EFC}|ClientManagementSystem.BLL\\ClientManagementSystem.BL.csproj|c:\\users\\user\\source\\repos\\clientmanagementsystem\\clientmanagementsystem.bll\\services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F870D00A-7001-4517-850F-416DE9103EFC}|ClientManagementSystem.BLL\\ClientManagementSystem.BL.csproj|solutionrelative:clientmanagementsystem.bll\\services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F870D00A-7001-4517-850F-416DE9103EFC}|ClientManagementSystem.BLL\\ClientManagementSystem.BL.csproj|c:\\users\\user\\source\\repos\\clientmanagementsystem\\clientmanagementsystem.bll\\interfaces\\iclientgroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F870D00A-7001-4517-850F-416DE9103EFC}|ClientManagementSystem.BLL\\ClientManagementSystem.BL.csproj|solutionrelative:clientmanagementsystem.bll\\interfaces\\iclientgroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C6E2641-B0E7-4DF6-AAE2-68A41C7F6B1B}|ClientManagementSystem.DAL\\ClientManagementSystem.DAL.csproj|c:\\users\\user\\source\\repos\\clientmanagementsystem\\clientmanagementsystem.dal\\interfaces\\iclientgrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C6E2641-B0E7-4DF6-AAE2-68A41C7F6B1B}|ClientManagementSystem.DAL\\ClientManagementSystem.DAL.csproj|solutionrelative:clientmanagementsystem.dal\\interfaces\\iclientgrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC4349FB-6A46-42C1-93D9-160F0FFB493A}|ClientManagementSystem.Presentation\\ClientManagementSystem.Presentation.csproj|c:\\users\\user\\source\\repos\\clientmanagementsystem\\clientmanagementsystem.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC4349FB-6A46-42C1-93D9-160F0FFB493A}|ClientManagementSystem.Presentation\\ClientManagementSystem.Presentation.csproj|solutionrelative:clientmanagementsystem.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F870D00A-7001-4517-850F-416DE9103EFC}|ClientManagementSystem.BLL\\ClientManagementSystem.BL.csproj|c:\\users\\user\\source\\repos\\clientmanagementsystem\\clientmanagementsystem.bll\\dtos\\clientgroup\\clientgroupupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F870D00A-7001-4517-850F-416DE9103EFC}|ClientManagementSystem.BLL\\ClientManagementSystem.BL.csproj|solutionrelative:clientmanagementsystem.bll\\dtos\\clientgroup\\clientgroupupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,32 +38,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ClientController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ClientManagementSystem\\ClientManagementSystem.Presentation\\Controllers\\ClientController.cs",
-              "RelativeDocumentMoniker": "ClientManagementSystem.Presentation\\Controllers\\ClientController.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ClientManagementSystem\\ClientManagementSystem.Presentation\\Controllers\\ClientController.cs",
-              "RelativeToolTip": "ClientManagementSystem.Presentation\\Controllers\\ClientController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ClientService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ClientManagementSystem\\ClientManagementSystem.BLL\\Services\\ClientService.cs",
+              "RelativeDocumentMoniker": "ClientManagementSystem.BLL\\Services\\ClientService.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ClientManagementSystem\\ClientManagementSystem.BLL\\Services\\ClientService.cs",
+              "RelativeToolTip": "ClientManagementSystem.BLL\\Services\\ClientService.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAkwAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T09:56:25.63Z",
+              "WhenOpened": "2025-11-11T22:08:27.574Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ClientManagementSystem\\ClientManagementSystem.DAL\\Repositories\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "ClientManagementSystem.DAL\\Repositories\\GenericRepository.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ClientManagementSystem\\ClientManagementSystem.DAL\\Repositories\\GenericRepository.cs",
-              "RelativeToolTip": "ClientManagementSystem.DAL\\Repositories\\GenericRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "ClientGroupController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ClientManagementSystem\\ClientManagementSystem.Presentation\\Controllers\\ClientGroupController.cs",
+              "RelativeDocumentMoniker": "ClientManagementSystem.Presentation\\Controllers\\ClientGroupController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ClientManagementSystem\\ClientManagementSystem.Presentation\\Controllers\\ClientGroupController.cs",
+              "RelativeToolTip": "ClientManagementSystem.Presentation\\Controllers\\ClientGroupController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T09:56:18.802Z",
+              "WhenOpened": "2025-11-11T20:36:24.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IClientGroupService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ClientManagementSystem\\ClientManagementSystem.BLL\\Interfaces\\IClientGroupService.cs",
+              "RelativeDocumentMoniker": "ClientManagementSystem.BLL\\Interfaces\\IClientGroupService.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ClientManagementSystem\\ClientManagementSystem.BLL\\Interfaces\\IClientGroupService.cs",
+              "RelativeToolTip": "ClientManagementSystem.BLL\\Interfaces\\IClientGroupService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T20:34:12.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClientGroupService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ClientManagementSystem\\ClientManagementSystem.BLL\\Services\\ClientGroupService.cs",
+              "RelativeDocumentMoniker": "ClientManagementSystem.BLL\\Services\\ClientGroupService.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ClientManagementSystem\\ClientManagementSystem.BLL\\Services\\ClientGroupService.cs",
+              "RelativeToolTip": "ClientManagementSystem.BLL\\Services\\ClientGroupService.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAQwGQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T20:34:10.981Z",
               "EditorCaption": ""
             },
             {
@@ -114,191 +100,35 @@
               "RelativeDocumentMoniker": "ClientManagementSystem.DAL\\Repositories\\ClientRepository.cs",
               "ToolTip": "C:\\Users\\User\\source\\repos\\ClientManagementSystem\\ClientManagementSystem.DAL\\Repositories\\ClientRepository.cs",
               "RelativeToolTip": "ClientManagementSystem.DAL\\Repositories\\ClientRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAACAAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T09:56:15.661Z",
+              "WhenOpened": "2025-11-11T20:31:43.055Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "IClientGroupService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ClientManagementSystem\\ClientManagementSystem.BLL\\Interfaces\\IClientGroupService.cs",
-              "RelativeDocumentMoniker": "ClientManagementSystem.BLL\\Interfaces\\IClientGroupService.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ClientManagementSystem\\ClientManagementSystem.BLL\\Interfaces\\IClientGroupService.cs",
-              "RelativeToolTip": "ClientManagementSystem.BLL\\Interfaces\\IClientGroupService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T08:02:05.529Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ClientGroupCreateDTO.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ClientManagementSystem\\ClientManagementSystem.BLL\\DTOs\\ClientGroup\\ClientGroupCreateDTO.cs",
-              "RelativeDocumentMoniker": "ClientManagementSystem.BLL\\DTOs\\ClientGroup\\ClientGroupCreateDTO.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ClientManagementSystem\\ClientManagementSystem.BLL\\DTOs\\ClientGroup\\ClientGroupCreateDTO.cs",
-              "RelativeToolTip": "ClientManagementSystem.BLL\\DTOs\\ClientGroup\\ClientGroupCreateDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T07:34:03.378Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "ClientGroupRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ClientManagementSystem\\ClientManagementSystem.DAL\\Repositories\\ClientGroupRepository.cs",
               "RelativeDocumentMoniker": "ClientManagementSystem.DAL\\Repositories\\ClientGroupRepository.cs",
               "ToolTip": "C:\\Users\\User\\source\\repos\\ClientManagementSystem\\ClientManagementSystem.DAL\\Repositories\\ClientGroupRepository.cs",
               "RelativeToolTip": "ClientManagementSystem.DAL\\Repositories\\ClientGroupRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA1wBIAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T08:34:53.194Z",
+              "WhenOpened": "2025-11-11T20:31:18.37Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "BaseEntity.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ClientManagementSystem\\ClientManagementSystem.DAL\\Models\\Common\\BaseEntity.cs",
-              "RelativeDocumentMoniker": "ClientManagementSystem.DAL\\Models\\Common\\BaseEntity.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ClientManagementSystem\\ClientManagementSystem.DAL\\Models\\Common\\BaseEntity.cs",
-              "RelativeToolTip": "ClientManagementSystem.DAL\\Models\\Common\\BaseEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T08:44:17.942Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ClientGroup.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ClientManagementSystem\\ClientManagementSystem.DAL\\Models\\Concretes\\ClientGroup.cs",
-              "RelativeDocumentMoniker": "ClientManagementSystem.DAL\\Models\\Concretes\\ClientGroup.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ClientManagementSystem\\ClientManagementSystem.DAL\\Models\\Concretes\\ClientGroup.cs",
-              "RelativeToolTip": "ClientManagementSystem.DAL\\Models\\Concretes\\ClientGroup.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T07:23:15.498Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ClientGroupTreeDTO.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ClientManagementSystem\\ClientManagementSystem.BLL\\DTOs\\ClientGroup\\ClientGroupTreeDTO.cs",
-              "RelativeDocumentMoniker": "ClientManagementSystem.BLL\\DTOs\\ClientGroup\\ClientGroupTreeDTO.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ClientManagementSystem\\ClientManagementSystem.BLL\\DTOs\\ClientGroup\\ClientGroupTreeDTO.cs",
-              "RelativeToolTip": "ClientManagementSystem.BLL\\DTOs\\ClientGroup\\ClientGroupTreeDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T08:00:17.711Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ClientGroupController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ClientManagementSystem\\ClientManagementSystem.Presentation\\Controllers\\ClientGroupController.cs",
-              "RelativeDocumentMoniker": "ClientManagementSystem.Presentation\\Controllers\\ClientGroupController.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ClientManagementSystem\\ClientManagementSystem.Presentation\\Controllers\\ClientGroupController.cs",
-              "RelativeToolTip": "ClientManagementSystem.Presentation\\Controllers\\ClientGroupController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T08:04:06.724Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ClientGroupService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ClientManagementSystem\\ClientManagementSystem.BLL\\Services\\ClientGroupService.cs",
-              "RelativeDocumentMoniker": "ClientManagementSystem.BLL\\Services\\ClientGroupService.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ClientManagementSystem\\ClientManagementSystem.BLL\\Services\\ClientGroupService.cs",
-              "RelativeToolTip": "ClientManagementSystem.BLL\\Services\\ClientGroupService.cs",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAQwHYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T07:30:58.007Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ClientGroupDTO.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ClientManagementSystem\\ClientManagementSystem.BLL\\DTOs\\ClientGroup\\ClientGroupDTO.cs",
-              "RelativeDocumentMoniker": "ClientManagementSystem.BLL\\DTOs\\ClientGroup\\ClientGroupDTO.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ClientManagementSystem\\ClientManagementSystem.BLL\\DTOs\\ClientGroup\\ClientGroupDTO.cs",
-              "RelativeToolTip": "ClientManagementSystem.BLL\\DTOs\\ClientGroup\\ClientGroupDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T07:35:45.411Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Client.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ClientManagementSystem\\ClientManagementSystem.DAL\\Models\\Concretes\\Client.cs",
-              "RelativeDocumentMoniker": "ClientManagementSystem.DAL\\Models\\Concretes\\Client.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ClientManagementSystem\\ClientManagementSystem.DAL\\Models\\Concretes\\Client.cs",
-              "RelativeToolTip": "ClientManagementSystem.DAL\\Models\\Concretes\\Client.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T07:20:09.948Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ClientService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ClientManagementSystem\\ClientManagementSystem.BLL\\Services\\ClientService.cs",
-              "RelativeDocumentMoniker": "ClientManagementSystem.BLL\\Services\\ClientService.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ClientManagementSystem\\ClientManagementSystem.BLL\\Services\\ClientService.cs",
-              "RelativeToolTip": "ClientManagementSystem.BLL\\Services\\ClientService.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAkwGMAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T08:36:45.771Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
               "Title": "IClientGroupRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ClientManagementSystem\\ClientManagementSystem.DAL\\Interfaces\\IClientGroupRepository.cs",
               "RelativeDocumentMoniker": "ClientManagementSystem.DAL\\Interfaces\\IClientGroupRepository.cs",
               "ToolTip": "C:\\Users\\User\\source\\repos\\ClientManagementSystem\\ClientManagementSystem.DAL\\Interfaces\\IClientGroupRepository.cs",
               "RelativeToolTip": "ClientManagementSystem.DAL\\Interfaces\\IClientGroupRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T08:34:59.521Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ClientManagementSystem\\ClientManagementSystem.Presentation\\Program.cs",
-              "RelativeDocumentMoniker": "ClientManagementSystem.Presentation\\Program.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ClientManagementSystem\\ClientManagementSystem.Presentation\\Program.cs",
-              "RelativeToolTip": "ClientManagementSystem.Presentation\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T08:06:48.483Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ClientGroupUpdateDTO.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ClientManagementSystem\\ClientManagementSystem.BLL\\DTOs\\ClientGroup\\ClientGroupUpdateDTO.cs",
-              "RelativeDocumentMoniker": "ClientManagementSystem.BLL\\DTOs\\ClientGroup\\ClientGroupUpdateDTO.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\ClientManagementSystem\\ClientManagementSystem.BLL\\DTOs\\ClientGroup\\ClientGroupUpdateDTO.cs",
-              "RelativeToolTip": "ClientManagementSystem.BLL\\DTOs\\ClientGroup\\ClientGroupUpdateDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T07:35:44.569Z",
+              "WhenOpened": "2025-11-11T20:30:24.576Z",
               "EditorCaption": ""
             }
           ]

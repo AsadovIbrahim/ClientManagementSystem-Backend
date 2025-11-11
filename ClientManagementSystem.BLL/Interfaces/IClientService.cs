@@ -12,6 +12,8 @@ namespace ClientManagementSystem.BL.Interfaces
         Task<Result<ClientUpdateDTO>> UpdateClientAsync(ClientUpdateDTO dto);
         Task<Result<ClientDTO>> DeleteClientAsync(Guid id);
         Task<Result<bool>> DeleteMultipleClientsAsync(IEnumerable<Guid> ids);
+        Task<Result<IEnumerable<ClientDTO>>>GetClientsByCharacterNameAsync(string? characterName=null);    
+
 
 
     }
